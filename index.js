@@ -11,11 +11,6 @@ for(i=0;i<unit_check.length;i++){
 document.getElementById('submit').onclick = 
 function price_sum(){
     var sum = 0;
-    for(var i = 0 ; i < option_check.length ; i ++){
-      if(option_check[i].checked){
-        sum += parseInt(option_check[i].value);
-      }
-    }
     for (var i = 0; i < unit_check.length; i++){
         if(unit_check[i].checked){
             sum += parseInt(unit_check[i].value);
