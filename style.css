@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;    
+    height: 100%;
+    width:100%;
+	min-width: 950px;
+    color:black;
+
+}
+#content{
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    background-color:#00CED1;
+
+}
+
+h1{
+    font-family: 'Skia-Regular_Black', sans-serif;
+    color:white;
+}
+
+#result{
+    font-size: 30px;
+    font-family: 'Wawati SC',sans-serif;
+}
+
+#or{
+    font-size:30px;
+   font-family:'Wawati SC',sans-serif;
+}
+#step{
+    font-size:25px;
+    color:white;
+}
+
+#step1{
+    color:white;
+    padding:90px;
+    border:solid 1px white;
+    border-width:0px 0px 1px 0px;
+}
+
+#step2{
+    color:white;
+    padding:0px 90px 90px 90px;
+    border:solid 1px white;
+    border-width:0px 0px 1px 0px;
+}
+
+#stepNumber{
+    font-family: 'Skia-Regular_Black', sans-serif;
+    font-size:60px;
+}
+
+#step3{
+    padding:100px;
+    margin:0px;
+
+}
+#step3 button{
+        color: #fff;
+        background:transparent;
+        width:150px;
+        height:50px;
+        border:solid 1px white;
+        border-radius:5px;
+        display:inline-block;
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        font-size: 24px;
+        transition: 500ms;
+      }
+      #step3 button:hover{
+        background:orange;
+        border:0px;
+        ;
+      }
+      
+
+#momo img{
+    width:30vw;
+    min-width:250px;
+}
+#momo h1{
+    font-size:80px;
+    width: 50vw ;    
+    font-family: 'Skia-Regular_Black', sans-serif;
+    color:white;
+}
+#momo{
+    padding:100px;
+    margin:0px;
+    background: rgb(235,228,12);
+    background: linear-gradient(0deg, rgba(235,228,12,1) 0%, rgba(250,138,0,1) 100%);
+
+}
+
+#result{
+    color:white;
+    padding:0px 90px 90px 90px;
+}
+
