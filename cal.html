@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=960" />
+    <title>レポートペースメーカーラビット🐰</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="full">
+    <div id = momo>
+      <img
+      src="auntrabbit.png"
+      alt="Rabbit!"
+      align='right'>
+      <!-- <img
+      src="rabbit.png"
+      alt="Grapeslice atop a pile of other slices"
+      align='right'> -->
+
+      <h1>Report Pacemaker <br>for NHS Sudents!<br>2021🐰</h1>
+
+    
+    </div>
+    <div id ="content">
+    <form name="myform">
+           <div id='step1'>
+           <h3 id='step'><span id='stepNumber'>Step 1</span> <br>何日で終わらせたいか入力してね!</h3>
+           <input type="text" id='goal'>日で終わらせる！
+           <br>
+           </div>
+
+           <div id ='step2'>
+        　　<h3 id='step'><span id='stepNumber'>Step2</span><br> 履修モデルか科目を選択してね！</h3>
+       　　 <p>[A] 標準履修モデルを選択する (これをチェックするだけで、標準履修モデルの履修科目全てを合わせて計算できるよ。）</p>
+        　
+        　<details>
+           <summary>1年生標準履修モデル</summary>
+           <br>
+           <input type = "checkbox" name = "unit" value = 50>年間
+           <input type = "checkbox" name = "unit" value = 50>6/15
+           <input type = "checkbox" name = "unit" value = 50>7/15
+           <input type = "checkbox" name = "unit" value = 30>8/15
+           <input type = "checkbox" name = "unit" value = 30>9/15
+           <input type = "checkbox" name = "unit" value = 30>10/15
+           <input type = "checkbox" name = "unit" value = 30>11/15
+           <input type = "checkbox" name = "unit" value = 30>12/15
+　　　　　　 </details>
+            <br>
+            <details>
+            <summary>2年生標準履修モデル</summary>
+            <br>
+            <input type = "checkbox" name = "unit" value = 50>6/15 
+           <input type = "checkbox" name = "unit" value = 50>7/15
+           <input type = "checkbox" name = "unit" value = 30>8/15
+           <input type = "checkbox" name = "unit" value = 30>9/15
+           <input type = "checkbox" name = "unit" value = 30>10/15
+           <input type = "checkbox" name = "unit" value = 30>11/15
+           <input type = "checkbox" name = "unit" value = 30>12/15
+           </details>
+           <br>
+           <details>
+            <summary>3年生標準履修モデル</summary>
+            <br>
+            <input type = "checkbox" name = "unit" value = 50>6/15 
+           <input type = "checkbox" name = "unit" value = 50>7/15
+           <input type = "checkbox" name = "unit" value = 30>8/15
+           <input type = "checkbox" name = "unit" value = 30>9/15
+           <input type = "checkbox" name = "unit" value = 30>10/15
+           <input type = "checkbox" name = "unit" value = 30>11/15
+           <input type = "checkbox" name = "unit" value = 30>12/15
+           </details>
+
+            <p id = 'or'>OR</p>
+
+            <p>[B] 科目別に選択する（標準履修モデルのひとで、[A] で標準履修モデルをチェックした人は、[B]で新たに科目をチェックをする必要はないよ。）</p>
+        　
+           <p>国語表現</p>
+           <input type = "checkbox" name = "unit" value = 17>1 
+           <input type = "checkbox" name = "unit" value = 19>2
+           <input type = "checkbox" name = "unit" value = 13>3
+           <input type = "checkbox" name = "unit" value = 18>4
+           <input type = "checkbox" name = "unit" value = 19>5
+           <input type = "checkbox" name = "unit" value = 33>6
+           <input type = "checkbox" name = "unit" value = 29>7
+           <input type = "checkbox" name = "unit" value = 45>8
+           <input type = "checkbox" name = "unit" value = 44>9
+
+
+        　 <p>現代文A </p>  
+        <input type = "checkbox" name = "unit" value = 24>1
+        <input type = "checkbox" name = "unit" value = 23>2
+        <input type = "checkbox" name = "unit" value = 40>3
+        <input type = "checkbox" name = "unit" value = 25>4
+        <input type = "checkbox" name = "unit" value = 26>5
+        <input type = "checkbox" name = "unit" value = 26>6
+     
+           <p>地理B</p>
+           <input type = "checkbox" name = "unit" value = 35>1
+           <input type = "checkbox" name = "unit" value = 31>2
+           <input type = "checkbox" name = "unit" value = 71>3
+           <input type = "checkbox" name = "unit" value = 46>4
+           <input type = "checkbox" name = "unit" value = 62>5
+           <input type = "checkbox" name = "unit" value = 38>6
+           <input type = "checkbox" name = "unit" value = 40>7
+           <input type = "checkbox" name = "unit" value = 49>8
+           <input type = "checkbox" name = "unit" value = 41>9
+           <input type = "checkbox" name = "unit" value = 46>10
+           <input type = "checkbox" name = "unit" value = 46>11
+           <input type = "checkbox" name = "unit" value = 49>12
+
+           
+           　 <p>倫理 </p>  
+           <input type = "checkbox" name = "unit" value = 43>1
+           <input type = "checkbox" name = "unit" value = 42>2
+           <input type = "checkbox" name = "unit" value = 69>3
+           <input type = "checkbox" name = "unit" value = 51>4
+           <input type = "checkbox" name = "unit" value = 36>5
+           <input type = "checkbox" name = "unit" value = 40>6
+
+           <p>生物基礎 </p>  
+           <input type = "checkbox" name = "unit" value = 18>1
+           <input type = "checkbox" name = "unit" value = 25>2
+           <input type = "checkbox" name = "unit" value = 18>3
+           <input type = "checkbox" name = "unit" value = 27>4
+           <input type = "checkbox" name = "unit" value = 19>5
+           <input type = "checkbox" name = "unit" value = 24>6
+
+           <p>体育（オリジナル）</p>
+           <input type = "checkbox" name = "unit" value = 62>1
+           <input type = "checkbox" name = "unit" value = 42>2
+           <input type = "checkbox" name = "unit" value = 44>3
+
+           <p>保健</p>  
+           <input type = "checkbox" name = "unit" value = 38>1
+           <input type = "checkbox" name = "unit" value = 19>2
+           <input type = "checkbox" name = "unit" value = 12>3
+           <input type = "checkbox" name = "unit" value = 17>4
+           <input type = "checkbox" name = "unit" value = 11>5
+           <input type = "checkbox" name = "unit" value = 11>6
+
+           <p>社会と学習</p>  
+           <input type = "checkbox" name = "unit" value = 13>1
+           <input type = "checkbox" name = "unit" value = 26>2
+           <input type = "checkbox" name = "unit" value = 53>3
+           <input type = "checkbox" name = "unit" value = 33>4
+
+
+
+   </div>
+           <div id= 'step3'>
+           <h3 id='step'><span id='stepNumber'>Click Button❤︎</span><br>ボタンをクリック〜</h3>
+         
+           <button id="submit" type='button'>計算する</button>
+           </div>
+           <div id='result'></div>
+           <!-- <p id='result'>一日 <input type="text" name="total" value="0"> 個進めれば終わります!<br>［切り上げ］一日 <input type ="text" name="safty" value="0">進めよう！</p> -->
+     </form>
+     <script src="index.js"></script>
+     </div>
+</div>
+
+</body>
+
+</html>
